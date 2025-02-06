@@ -357,7 +357,7 @@ export const AudioRecorder = () => {
       ) : (
         <>
           <img
-            src="/src/assets/wired-outline-188-microphone-recording-loop-recording.gif"
+            src="/wired-outline-188-microphone-recording-loop-recording.gif"
             height={70}
             width={70}
           />
