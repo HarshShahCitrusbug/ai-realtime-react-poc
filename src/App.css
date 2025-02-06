@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
 }
 
@@ -16,6 +16,40 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.landing-page {
+  padding: 20px;
+  padding-top: 70px;
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 100dvh;
+  box-sizing: border-box;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.landing-page h1 {
+  margin: 0;
+}
+
+.landing-page p {
+  margin: 0;
+}
+
+.transcript-section {
+  width: 700px;
+  max-width: 100%;
+  border: 1px solid #999;
+  padding: 20px;
+  border-radius: 12px;
+  max-height: calc(100dvh - 480px);
+  overflow-y: auto;
+}
+.transcript-section h2 {
+  margin-top: 0px;
 }
 
 @keyframes logo-spin {

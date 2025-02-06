@@ -1,10 +1,8 @@
-import {AudioRecorder} from './AudioRecorder'
+import { AudioRecorder } from "./AudioRecorder";
+import "./App.css";
 
 function App() {
-
-  return (
-    <AudioRecorder />
-  )
+  return <AudioRecorder />;
 }
 
-export default App
+export default App;
