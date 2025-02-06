@@ -269,6 +269,9 @@ export const AudioRecorder = () => {
         case "response.audio_transcript.delta":
           setTranscript((prevTranscript) => prevTranscript + msg.delta);
           break;
+        case "response.audio_transcript.done":
+          setTranscript((prevTranscript) => prevTranscript + "\n\n");
+          break;
         case "response.function_call_arguments.done":
           const fn = FUNCTION_TOOLS[msg.name];
           if (fn !== undefined) {
